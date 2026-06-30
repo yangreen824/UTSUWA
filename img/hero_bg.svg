@@ -1,0 +1,27 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="800" fill="#FBF8F5"/>
+  <!-- 背景のサークル群（霞み感） -->
+  <circle cx="980" cy="180" r="480" fill="#F9E8E0" opacity="0.5"/>
+  <circle cx="1020" cy="140" r="360" fill="#F5E6E8" opacity="0.45"/>
+  <circle cx="1100" cy="220" r="240" fill="#EECFCF" opacity="0.35"/>
+  <!-- 左下のアクセント -->
+  <circle cx="100" cy="720" r="380" fill="#EDE8E5" opacity="0.4"/>
+  <circle cx="60" cy="760" r="240" fill="#F5E6E8" opacity="0.3"/>
+  <!-- 中央のソフトグロー -->
+  <circle cx="600" cy="400" r="300" fill="#FFFFFF" opacity="0.4"/>
+  <!-- 右側ボタニカルライン -->
+  <path d="M960 800 Q1000 620 940 430 Q910 310 980 180" stroke="#D4BFB5" stroke-width="1.5" fill="none" opacity="0.6"/>
+  <path d="M940 430 Q880 375 840 390" stroke="#D4BFB5" stroke-width="1.2" fill="none" opacity="0.5"/>
+  <path d="M950 540 Q890 510 860 525" stroke="#D4BFB5" stroke-width="1.2" fill="none" opacity="0.5"/>
+  <path d="M945 640 Q900 615 875 628" stroke="#D4BFB5" stroke-width="1.0" fill="none" opacity="0.45"/>
+  <ellipse cx="843" cy="392" rx="36" ry="20" fill="#D4BFB5" opacity="0.4" transform="rotate(-20,843,392)"/>
+  <ellipse cx="863" cy="527" rx="32" ry="18" fill="#D4BFB5" opacity="0.35" transform="rotate(10,863,527)"/>
+  <ellipse cx="878" cy="630" rx="28" ry="16" fill="#D4BFB5" opacity="0.3" transform="rotate(-5,878,630)"/>
+  <!-- 右端サブライン -->
+  <path d="M1080 800 Q1110 660 1070 480 Q1050 380 1100 260" stroke="#C9A8B0" stroke-width="1.0" fill="none" opacity="0.4"/>
+  <ellipse cx="1055" cy="478" rx="28" ry="16" fill="#C9A8B0" opacity="0.3" transform="rotate(-15,1055,478)"/>
+  <ellipse cx="1065" cy="580" rx="24" ry="14" fill="#C9A8B0" opacity="0.25" transform="rotate(8,1065,580)"/>
+  <!-- 左側サブボタニカル -->
+  <path d="M180 800 Q160 680 200 560 Q220 480 180 360" stroke="#D4BFB5" stroke-width="1.0" fill="none" opacity="0.35"/>
+  <ellipse cx="197" cy="560" rx="24" ry="14" fill="#D4BFB5" opacity="0.3" transform="rotate(15,197,560)"/>
+</svg>
