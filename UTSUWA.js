@@ -1,11 +1,24 @@
 $(document).ready(function () {
 
-  // スムーズスクロール
+  // ハンバーガーメニューを閉じるヘルパー
+  function closeMenu() {
+    if ($('.hamburger-menu').hasClass('active')) {
+      $('.hamburger-menu').removeClass('active');
+      $('.menu-overlay').slideUp('slow', 'swing');
+      $('.menu .menu-list').slideUp('slow', 'swing');
+      $('.hamburger-menu-wrapper').removeClass('bounce-effect');
+    }
+  }
+
+  // スムーズスクロール（メニューが開いている場合は先に閉じる）
   $('a[href^="#"]').on('click', function () {
     var href = $(this).attr('href');
     var target = $(href === '#' || href === '' ? 'html' : href);
     if (!target.length) return;
-    $('html, body').animate({ scrollTop: target.offset().top - 64 }, 600, 'swing');
+    closeMenu();
+    setTimeout(function () {
+      $('html, body').animate({ scrollTop: target.offset().top - 64 }, 600, 'swing');
+    }, 200);
     return false;
   });
 
